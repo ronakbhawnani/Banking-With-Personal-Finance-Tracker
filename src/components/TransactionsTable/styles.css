@@ -1,0 +1,123 @@
+.ant-table-content span {
+    color: black !important;
+}
+
+.table-box {
+    width: 95vw;
+    margin-block: 1rem;
+    box-shadow: var(--shadow-color);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.table-box h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    opacity: .8;
+}
+
+.search-and-filter {
+    max-width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-bar {
+    width: 80%;
+    font-size: .9rem;
+    font-weight: 500;
+    outline: none;
+    padding: .8rem;
+    border: none;
+    background-color: #FAFAFA;
+    border-radius: .5rem;
+    transition: linear .3s;
+
+}
+
+.search-bar:focus {
+    box-shadow: var(--shadow-color);
+    transition: linear .3s;
+}
+
+.select-filter {
+    min-width: 25vw;
+    width: 15%;
+    height: 100%;
+    padding: 0;
+    outline: none;
+}
+
+.import-export-sort {
+    max-width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-block: .5rem;
+}
+
+button {
+    width: 100% !important;
+    outline: none;
+    border: none;
+    padding: 0.4rem !important;
+}
+
+.ix-button {
+    min-width: 23vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.import-export-sort h2 {
+    font-size: 1.2rem;
+}  
+
+.crud-btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.table{
+    cursor: pointer;
+}
+
+.search-icon{
+    font-size: 1.5rem;
+    opacity: .8;
+}
+
+@media (max-width: 750px) {
+    .ix-button {
+        width: 100%;
+    }
+}
+
+/* styles.css (or any other CSS file where you define your styles) */
+
+.table-box {
+    width: 100%;
+    overflow-x: auto; /* Add horizontal scrollbar if the table overflows on small screens */
+  }
+  /* Use flexbox to display table rows in a column on small screens and in a row on larger screens *
+  /* Add responsive media query to adjust table layout based on screen size */
+  @media screen and (max-width: 768px) {
+    .crud-btn {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* gap: .5rem; */
+        flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+.color-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    background: var(--white);
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.color-switcher .color-box {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: var(--white);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
+}
+
+.color-switcher .green {
+    background: #20bf6b;
+}
+
+.color-switcher .pink{
+    background: #e83e8c;
+}
+
+.color-switcher .orange {
+    background: #fc7b54;
+}
+
+.color-switcher .light-green {
+    background: #10ac84;
+}
+
+.color-switcher .default {
+    background: #6842EF;
+}

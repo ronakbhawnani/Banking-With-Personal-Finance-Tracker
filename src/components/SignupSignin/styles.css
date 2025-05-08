@@ -1,0 +1,47 @@
+.signup-wrapper {
+    width: 60vw;
+    max-width: 400px;
+    height: auto;
+    box-shadow: var(--shadow-color);
+    padding: 2rem;
+    padding-bottom: 1.2rem;
+    border-radius: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.or-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black);
+    text-align: center;
+    margin-block: .4rem;
+}
+
+.have-an-account {
+    margin-top: .9rem;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.have-an-account span:hover {
+    color: var(--primary-purple);
+    transition: ease-in-out .3s;
+}
+
+.FcGoogle {
+    margin-right: .5rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 759px) {
+    .signup-wrapper {
+        width: 90vw;
+        margin-top: 2.5rem;
+    }
+}

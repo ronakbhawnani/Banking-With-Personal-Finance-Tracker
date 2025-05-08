@@ -1,0 +1,15 @@
+.custome-input{
+    border-width: 0;
+    border-bottom-width: 1px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    font-size: .9rem;
+    font-weight: 500;
+    margin: .8rem 0;
+}
+
+.custome-input:focus{
+    outline: none;
+    border-bottom-color: var(--primary-purple);
+    transition: all .3s;
+}

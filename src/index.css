@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,600;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  --webkit-font-smoothing: antialiased;
+  --moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--primary-purple);
+  color: var(--white);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* reusable code here */
+:root {
+  /* --theme: #2978ff; */
+  --primary-green: #069067;
+  --primary-purple: #6842EF;
+  --primary-purple-shade: #8161f4;
+  --black: #000;
+  --white: #fff;
+  --shadow-color: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* char styling  */
+.chart {
+  width: 95vw;
+  margin-block: 2rem;
+  box-shadow: var(--shadow-color);
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart h2 {
+  margin-top: 1rem;
+  /* text-align: center; */
+  opacity: .4;
+}
+
+.chart img {
+  width: 50%;
+
+}
+
+.no-transaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line-chart {
+  width: 95vw;
+  box-shadow: var(--shadow-color);
+  border-radius: .5rem;
+}

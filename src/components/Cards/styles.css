@@ -1,0 +1,53 @@
+.mycard {
+    box-shadow: var(--shadow-color);
+    min-width: 19rem;
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+}
+
+.current-balance {
+    color: var(--white);
+    background-color: var(--primary-purple);
+    /* background-image: linear-gradient(315deg, #6842EF 0%, #8161f4 74%); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
+}
+
+.current-balance h2 {
+    font-size: 1.4rem !important;
+}
+
+.current-balance p {
+    font-size: 1.9rem !important;
+    font-weight: 600 !important;
+    text-shadow: var(--shadow-color) !important;
+}
+
+.title {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.mycard p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-block: 1.5rem;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 95vw;
+    margin: 1.5rem auto;
+}
+
+.reset-balance-btn {
+    padding: .5rem !important;
+}
+
+.reset-balance-btn:hover {
+    letter-spacing: 1px;
+    color: var(--white) !important;
+}
