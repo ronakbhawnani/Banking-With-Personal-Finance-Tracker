@@ -7,12 +7,13 @@ import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCeJntn40p7yvp1d77raiMW3S_1Mw1dN7Y",
-  authDomain: "finance-tracker-app-1128c.firebaseapp.com",
-  projectId: "finance-tracker-app-1128c",
-  storageBucket: "finance-tracker-app-1128c.appspot.com",
-  messagingSenderId: "90641179227",
-  appId: "1:90641179227:web:3d4a0e6af98ed3bce7d57e",
+  apiKey: "AIzaSyBfVo0tIfZgaYUenn9aOV8EtHhmuz2Ziws",
+  authDomain: "banking-with-personal-finance.firebaseapp.com",
+  projectId: "banking-with-personal-finance",
+  storageBucket: "banking-with-personal-finance.firebasestorage.app",
+  messagingSenderId: "88568506325",
+  appId: "1:88568506325:web:25523ed7a7119f1fb77f5c",
+  measurementId: "G-0SW2ZE7792"
 };
 
 // Initialize Firebase
